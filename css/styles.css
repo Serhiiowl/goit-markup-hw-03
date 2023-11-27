@@ -1,0 +1,185 @@
+    body {
+        font-family: "Roboto", sans-serif;
+        background-color: #ffffff;
+        line-height: 1.5;
+        color: #434455;
+        letter-spacing: 0.32px;
+    }
+
+    ul {
+
+
+        list-style-type: none;
+    }
+
+    /* Header */
+
+    .logo {
+        color: #4D5AE5;
+        font-family: Raleway, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-decoration: none;
+        line-height: 1.17;
+        letter-spacing: 0.54px;
+    }
+
+    .logo:focus {
+        color: #404BBF;
+    }
+
+    .studio:hover {
+        color: #404BBF;
+
+    }
+
+    .studio:focus {
+        color: #404BBF;
+
+    }
+
+    .studio:active {
+        text-decoration: underline 2px;
+        color: #404BBF;
+    }
+
+
+    .studio {
+        color: #2E2F42;
+        text-decoration: none;
+        line-height: 1.167;
+    }
+
+    /* Menu */
+    .link-menu {
+        color: #2E2F42;
+        font-weight: 500;
+        font-size: 16px;
+        font-style: bold;
+        text-decoration: none;
+    }
+
+    .link-menu:hover {
+        color: #404BBF;
+    }
+
+    .link-menu:focus {
+        color: #404BBF;
+    }
+
+    /* Addres */
+    .address {
+
+        font-style: normal;
+
+    }
+
+    .link-adr {
+        color: #434455;
+        font-weight: 400;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    .link-adr:hover {
+        color: #404BBF;
+    }
+
+    .link-adr:focus {
+        color: #404BBF;
+    }
+
+    /* Main One */
+
+    .main-top {
+        background-color: #2E2F42;
+        line-height: 1.07142857143;
+    }
+
+    .title {
+        color: #fff;
+        text-align: center;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 1.12px;
+    }
+
+    /* Button */
+    .button {
+        cursor: pointer;
+        color: #fff;
+        background-color: #4D5AE5;
+        font-weight: 500;
+        font-size: 16px;
+        font-family: "Roboto",
+            sans-serif;
+        line-height: 1.5;
+        letter-spacing: 0.64px;
+    }
+
+    .button:hover {
+        background-color: #404BBF;
+    }
+
+    .button:focus {
+        background-color: #404BBF;
+    }
+
+    /* Main Two */
+
+    .team {
+        background-color: #F4F4FD;
+    }
+
+    .info {
+        color: #434455;
+
+    }
+
+
+    .title-two {
+
+        color: #2E2F42;
+        font-size: 36px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: capitalize;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+
+    }
+
+    .title-three {
+        color: #2E2F42;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+    }
+
+    .team-back {
+        background-color: #ffffff;
+    }
+
+
+
+
+
+
+    /* Footer */
+
+    .footer {
+        background-color: #2E2F42;
+    }
+
+    .studio-footer {
+        color: #F4F4FD;
+        text-decoration: none;
+        line-height: 1.17;
+    }
+
+    .p-footer {
+        color: #F4F4FD;
+    }
