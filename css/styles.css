@@ -38,7 +38,6 @@
  .container {
      width: 1158px;
      display: flex;
-     flex-direction: row;
      margin: 0 auto;
      padding: 0 15px 0 15px;
  }
@@ -63,10 +62,6 @@
      align-items: center;
  }
 
- /* .cont-logo { */
- /* padding: 25.5px 76px 25.5px 156px; */
- /* } */
-
  .logo {
      color: #4D5AE5;
      font-family: Raleway, sans-serif;
@@ -77,7 +72,6 @@
      line-height: 1.17;
      letter-spacing: 0.54px;
      margin-right: 76px;
-
  }
 
  .logo:focus {
@@ -171,14 +165,6 @@
      padding: 188px 0;
  }
 
- /* .main-one { */
- /* display: flex; */
- /* align-items: center; */
- /* flex-direction: column; */
- /* gap: 48px; */
- /* } */
-
-
  .title {
      color: #fff;
      text-align: center;
@@ -233,7 +219,6 @@
 
  .main-two {
      display: flex;
-     flex-direction: row;
      padding: 120px 156px;
      gap: 24px
  }
@@ -276,7 +261,6 @@
 
  .info {
      color: #434455;
-
      margin-top: 8px;
 
  }
