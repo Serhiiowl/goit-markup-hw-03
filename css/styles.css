@@ -211,6 +211,16 @@
      padding: 120px 0;
  }
 
+ .title-three {
+     color: #2E2F42;
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 1.2;
+     letter-spacing: 0.4px;
+     margin-bottom: 8px;
+
+ }
+
  .visually-hidden {
      position: absolute;
      overflow: hidden;
@@ -227,48 +237,13 @@
      width: calc((100% - 72px) / 4);
  }
 
- .team {
-     background-color: #F4F4FD;
-     padding: 120px 0;
- }
-
- .cont-team {
-     display: flex;
-     flex-direction: row;
-     justify-content: center;
-     gap: 24px;
- }
-
- .team-title {
-     display: flex;
-     flex-direction: column;
-     gap: 70px;
-     justify-content: center;
- }
-
- .team-title-two {
-
-     color: #2E2F42;
-     font-size: 36px;
-     font-weight: 700;
-     justify-content: center;
-     text-transform: capitalize;
-     line-height: 1.11;
-     letter-spacing: 0.72px;
-     display: flex;
-     margin-bottom: 72px;
- }
-
  .info {
      color: #434455;
      margin-top: 8px;
 
  }
 
- .info-team {
-     color: #434455;
-     text-align: center;
- }
+
 
  .title-two {
 
@@ -285,25 +260,32 @@
 
  /* #endregion */
 
- /* Main Three */
+ /* Team */
  /* #region */
- .title-three {
-     color: #2E2F42;
-     font-size: 20px;
-     font-weight: 500;
-     line-height: 1.2;
-     letter-spacing: 0.4px;
-     margin-bottom: 8px;
 
+ .team-title-two {
+
+     color: #2E2F42;
+     font-size: 36px;
+     font-weight: 700;
+     justify-content: center;
+     text-transform: capitalize;
+     line-height: 1.11;
+     letter-spacing: 0.72px;
+     display: flex;
+     margin-bottom: 72px;
  }
 
- .title-three-port {
-     color: #2E2F42;
-     font-size: 20px;
-     font-weight: 500;
-     line-height: 1.2;
-     letter-spacing: 0.4px;
-     margin-bottom: 8px;
+ .cont-team {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     gap: 24px;
+ }
+
+ .team {
+     background-color: #F4F4FD;
+     padding: 120px 0;
  }
 
  .team-back {
@@ -327,7 +309,7 @@
  }
 
 
- .title-three-team {
+ .title-team {
      color: #2E2F42;
      font-size: 20px;
      font-weight: 500;
@@ -337,9 +319,14 @@
      margin-bottom: 8px;
  }
 
+ .info-team {
+     color: #434455;
+     text-align: center;
+ }
+
  /* #endregion */
 
- /* Main Four */
+ /* Portfolio */
  /* #region */
  .portfolio {
      padding: 120px 0 120px 0;
@@ -350,6 +337,15 @@
      flex-wrap: wrap;
      column-gap: 24px;
      row-gap: 48px;
+ }
+
+ .title-three-port {
+     color: #2E2F42;
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 1.2;
+     letter-spacing: 0.4px;
+     margin-bottom: 8px;
  }
 
  .name-port {
