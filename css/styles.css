@@ -40,7 +40,7 @@
      display: flex;
      margin: 0 auto;
      padding: 0 15px 0 15px;
-     flex-direction: column;
+
  }
 
  /* #endregion */
@@ -224,8 +224,14 @@
 
  }
 
- .visually-hidden {
-     display: hidden;
+ .hidden {
+     clip: rect(0 0 0 0);
+     clip-path: inset(50%);
+     height: 1px;
+     overflow: hidden;
+     position: absolute;
+     white-space: nowrap;
+     width: 1px;
  }
 
  .main-two {
