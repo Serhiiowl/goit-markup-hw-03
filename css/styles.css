@@ -37,10 +37,15 @@
 
  .container {
      width: 1158px;
-     display: flex;
      margin: 0 auto;
      padding: 0 15px 0 15px;
+ }
 
+ .container-head {
+     width: 1158px;
+     margin: 0 auto;
+     padding: 0 15px 0 15px;
+     display: flex;
  }
 
  /* #endregion */
@@ -48,13 +53,9 @@
  /* Header */
  /* #region */
  .head {
-     border-bottom: 1px solid #e7e9fc
- }
-
- .cont-head {
+     border-bottom: 1px solid #e7e9fc;
      display: flex;
-     flex-direction: row;
-
+     padding: 25.5px 0;
 
  }
 
@@ -117,7 +118,6 @@
      text-decoration: none;
      padding: 24px 0;
 
-
  }
 
  .link-menu:hover {
@@ -131,7 +131,7 @@
  /* Addres */
  .address {
      display: flex;
-     margin-left: 332px;
+     margin-left: auto;
      font-style: normal;
      gap: 40px;
 
@@ -165,7 +165,7 @@
      line-height: 1.07142857143;
      padding: 188px 0;
 
-     flex-direction: column;
+
  }
 
  .title {
@@ -176,7 +176,7 @@
      line-height: 1.07;
      letter-spacing: 1.12px;
      max-width: 496px;
-
+     margin: 0 auto 48px;
  }
 
  /* Button */
@@ -196,6 +196,8 @@
      min-width: 169px;
      height: 56px;
      border: none;
+     display: block;
+     margin: 0 auto;
  }
 
  .button:hover {
