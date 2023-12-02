@@ -382,7 +382,7 @@
      text-decoration: none;
      line-height: 1.17;
      letter-spacing: 0.54px;
-     display: inline-block;
+     display: flex;
      margin-bottom: 16px;
 
  }
