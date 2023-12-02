@@ -120,6 +120,8 @@
 
  }
 
+
+
  .link-menu:hover {
      color: #404BBF;
  }
@@ -131,9 +133,9 @@
  /* Addres */
  .address {
      display: flex;
-     margin-left: auto;
      font-style: normal;
      gap: 40px;
+     margin-left: 332px;
 
 
  }
