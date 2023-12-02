@@ -224,7 +224,7 @@
 
  }
 
- .hidden {
+ .visually-hidden {
      clip: rect(0 0 0 0);
      clip-path: inset(50%);
      height: 1px;
@@ -388,7 +388,7 @@
      text-decoration: none;
      line-height: 1.17;
      letter-spacing: 0.54px;
-     display: flex;
+     display: inline-block;
      margin-bottom: 16px;
 
  }
