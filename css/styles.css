@@ -49,13 +49,14 @@
  .head {
      border-bottom: 1px solid #e7e9fc;
      display: flex;
-     padding: 25.5px 0;
 
  }
 
  .head .container {
      display: flex;
+     justify-content: space-between;
  }
+
 
  .head-nav {
      display: flex;
@@ -78,6 +79,7 @@
      color: #404BBF;
  }
 
+
  .studio:hover {
      color: #404BBF;
 
@@ -85,7 +87,6 @@
 
  .studio:focus {
      color: #404BBF;
-
  }
 
  .studio:active {
@@ -115,7 +116,7 @@
      font-style: bold;
      text-decoration: none;
      padding: 24px 0;
-
+     display: block
  }
 
 
@@ -133,8 +134,6 @@
      display: flex;
      font-style: normal;
      gap: 40px;
-     margin-left: 332px;
-
 
  }
 
@@ -143,6 +142,8 @@
      font-weight: 400;
      font-size: 16px;
      text-decoration: none;
+     display: block;
+     padding: 24px 0;
 
  }
 
@@ -251,7 +252,7 @@
 
  .info {
      color: #434455;
-     margin-top: 8px;
+
 
  }
 
@@ -313,7 +314,6 @@
      box-shadow: 0px 1px 1px 0px #2E2F4229;
 
      box-shadow: 0px 1px 6px 0px #2E2F4214;
-
  }
 
  .team-name {
